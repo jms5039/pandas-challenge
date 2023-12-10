@@ -1,8 +1,61 @@
-https://favtutor.com/blogs/pandas-unique-values-in-column
-	Get Unique values in Pandas DataFrame Column
+BCS Learning Assistant helped me on 12/8/2023 with renaming the index. BCS Learning Assistant provided me with df = df.rename_axis('').
 
-https://pandas.pydata.org/docs/user_guide/merging.html
-	Merge, join, concatenate and compare
+Tasks:
+- Analyze the district-wide standardized test results.
+- Aggregate the data to showcase obvious trends in school performance.
 
-https://stackoverflow.com/questions/69364743/how-to-perform-an-operation-with-two-columns-in-the-same-dataframe-in-python-pan
-	perform an operation with two columns in the same dataframe in Python Pandas?
+Instructions:
+Using Pandas and Jupyter Notebook, create a report that includes the following data:
+	- District Summary
+	    - Total number of unique schools
+	    - Total students
+	    - Total budget
+	    - Average math score
+	    - Average reading score
+	    - % passing math (the percentage of students who passed math)
+	    - % passing reading (the percentage of students who passed reading)
+	    - % overall passing (the percentage of students who passed math AND reading)
+
+	- School Summary
+	    - School name
+	    - School type
+	    - Total students
+	    - Total school budget
+	    - Per student budget
+	    - Average math score
+	    - Average reading score
+	    - % passing math (the percentage of students who passed math)
+	    - % passing reading (the percentage of students who passed reading)
+	    - % overall passing (the percentage of students who passed math AND reading)
+
+	- Highest-Performing Schools (by % Overall Passing)
+	    - Sort the schools by % Overall Passing in descending order and display the top 5 rows
+
+	- Lowest-Performing Schools (by % Overall Passing)
+            - Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
+
+	- Math Scores by Grade
+	    - list the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+
+	- Reading Scores by Grade
+	    - lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+
+	- Scores by School Spending
+	    - Create a table that breaks down school performance based on average spending ranges (per student).
+
+	- Scores by School Size
+	    - Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
+
+	- Scores by School Type
+	    - show school performance based on the "School Type".
+
+Resources Uses for Reference and Guidance:
+	Get Unique values in Pandas DataFrame Column:
+		https://favtutor.com/blogs/pandas-unique-values-in-column
+		
+	Merge, join, concatenate and compare:
+		https://pandas.pydata.org/docs/user_guide/merging.html
+		
+	Perform an operation with two columns in the same dataframe in Python Pandas?:
+		https://stackoverflow.com/questions/69364743/how-to-perform-an-operation-with-two-columns-in-the-same-dataframe-in-python-pan
+		
